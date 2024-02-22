@@ -1,5 +1,5 @@
 {
-	"name": "wui",
+	"name": "@w2wizard/wui",
 	"license": "./LICENSE",
 	"version": "0.0.1",
 	"scripts": {
@@ -47,5 +47,11 @@
 	"dependencies": {
 		"@tanstack/svelte-table": "^8.12.0",
 		"svelte-hero-icons": "^5.1.0"
+	},
+	"repository": {
+		"url": "https://github.com/W2Wizard/wui"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
 	}
 }
