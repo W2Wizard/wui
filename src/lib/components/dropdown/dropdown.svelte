@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { Snippet } from "svelte";
 	import { ChevronDown, Icon } from "svelte-hero-icons";
-	import type { HTMLBaseAttributes, HTMLDetailsAttributes } from "svelte/elements";
+	import type { HTMLDetailsAttributes } from "svelte/elements";
 
 	let { toggle, open, thumbnail, title = "Unknown", children } = $props<Props>();
 	interface Props extends HTMLDetailsAttributes {

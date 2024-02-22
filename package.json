@@ -25,7 +25,7 @@
 		"!dist/**/*.spec.*"
 	],
 	"peerDependencies": {
-		"svelte": "^4.0.0"
+		"svelte": "5.0.0-next.59"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
@@ -45,7 +45,6 @@
 	"types": "./dist/index.d.ts",
 	"type": "module",
 	"dependencies": {
-		"@tanstack/svelte-table": "^8.12.0",
 		"svelte-hero-icons": "^5.1.0"
 	},
 	"repository": {
