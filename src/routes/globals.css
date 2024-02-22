@@ -1,0 +1,15 @@
+:root {
+	--bg: white;
+	--fg: black;
+}
+
+:root[data-theme="dark"] {
+	--bg: black;
+	--fg: white;
+}
+
+body {
+	color: var(--fg);
+	background-color: var(--bg);
+	padding: 1em;
+}
